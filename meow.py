@@ -1,4 +1,4 @@
-`import discord
+import discord
 import aiohttp
 import asyncio
 from discord.ext import commands
@@ -58,4 +58,4 @@ async def stop(ctx):
 async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
 
-bot.run(TOKEN `
+bot.run(TOKEN)
